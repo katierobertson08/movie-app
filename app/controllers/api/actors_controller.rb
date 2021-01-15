@@ -5,4 +5,7 @@ class Api::ActorsController < ApplicationController
     render "actors.json.jb"
   end
 
+
 end
+
+
