@@ -5,6 +5,12 @@ class Api::ActorsController < ApplicationController
     render "actors.json.jb"
   end
 
+  def single_actor_action
+    input = params["actor"]
+    @output = "You searched for #{input}"
+    render "single_actor.json.jb"
+  end
+
 
 end
 
